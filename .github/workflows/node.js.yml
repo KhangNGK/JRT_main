@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: https://nodejs.org/download/release/latest-v16.x/node-v16.17.1.tar.gz
+        node-version: v16.17.1
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
